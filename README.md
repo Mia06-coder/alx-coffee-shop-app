@@ -10,18 +10,13 @@ A React Native coffee shop application with onboarding, browsing, ordering, and 
 
 ## Screens
 
-- Onboarding
-- Home
-- Detail Item
-- Order
-- Delivery
+| Onboarding                                                      | Home                                                | Detail Item                                                       |
+| --------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------- |
+| ![Onboarding Screen](/assets/images/screenshots/onboarding.png) | ![Home Screen](/assets/images/screenshots/home.png) | ![Detail Item Screen](/assets/images/screenshots/detail-item.png) |
 
-## Features
-
-- Responsive hero section with image and overlapping content.
-- Gradient overlay to improve text readability.
-- Modern typography using Sora font.
-- Fully functional order and delivery flow.
+| Order                                                 | Delivery                                                    |
+| ----------------------------------------------------- | ----------------------------------------------------------- |
+| ![Order Screen](/assets/images/screenshots/order.png) | ![Delivery Screen](/assets/images/screenshots/delivery.png) |
 
 ## Installation
 
