@@ -8,6 +8,9 @@ export const PROMO_IMAGE = require("@/assets/images/promo-image.png");
 export const COFFEE_SEED_ICON = require("@/assets/svgs/coffee-seed.svg");
 export const DELIVERY_ICON = require("@/assets/svgs/delivery.svg");
 export const MILK_ICON = require("@/assets/svgs/milk.svg");
+export const ADD_ICON = require("@/assets/svgs/add.svg");
+export const SUBTRACT_ICON = require("@/assets/svgs/subtract.svg");
+export const DISCOUNT_ICON = require("@/assets/svgs/discount.svg");
 
 // Coffee Images
 export const FLAT_WHITE = require("@/assets/images/coffee/flat-white.png");

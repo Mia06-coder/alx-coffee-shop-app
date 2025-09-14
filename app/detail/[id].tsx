@@ -47,7 +47,7 @@ export default function CoffeeDetail() {
       <SafeAreaView style={{ flex: 1 }}>
         <View style={common_styles.container}>
           {/* Header */}
-          <View style={styles.header}>
+          <View style={common_styles.header}>
             <TouchableOpacity onPress={() => router.back()}>
               <MaterialIcons
                 name="arrow-back-ios"
@@ -55,7 +55,7 @@ export default function CoffeeDetail() {
                 color={GREY_NORMAL}
               />
             </TouchableOpacity>
-            <Text style={styles.headerTitle}>Detail</Text>
+            <Text style={common_styles.headerTitle}>Detail</Text>
             <TouchableOpacity>
               <Ionicons name="heart-outline" size={24} color={GREY_NORMAL} />
             </TouchableOpacity>
@@ -100,7 +100,7 @@ export default function CoffeeDetail() {
                 <Text style={styles.ratingText}>{coffee.rating} </Text>
                 <Text style={styles.ratingPeople}>(120)</Text>
               </View>
-              <View style={styles.line} />
+              <View style={common_styles.divider} />
               <Text style={styles.label}>Description</Text>
               <Text
                 style={styles.description}
@@ -143,7 +143,15 @@ export default function CoffeeDetail() {
               <Text style={styles.priceLabel}>Price</Text>
               <Text style={styles.price}>${coffee.price.toFixed(2)}</Text>
             </View>
-            <TouchableOpacity style={styles.buyButton}>
+            <TouchableOpacity
+              style={styles.buyButton}
+              onPress={() =>
+                router.push({
+                  pathname: "/order/[id]",
+                  params: { id: coffee.id },
+                })
+              }
+            >
               <Text style={styles.buyText}>Buy Now</Text>
             </TouchableOpacity>
           </View>

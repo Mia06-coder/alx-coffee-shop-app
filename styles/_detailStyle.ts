@@ -8,16 +8,6 @@ import {
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  header: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginTop: 24,
-    paddingHorizontal: 24,
-    height: 44,
-    color: GREY_NORMAL,
-  },
-  headerTitle: { fontFamily: "Sora_600SemiBold", lineHeight: 19.2 },
   image: { width: "auto", height: 220, borderRadius: 16, margin: 24 },
   info: { paddingHorizontal: 24, paddingVertical: 8 },
   name: {
@@ -53,13 +43,7 @@ export const styles = StyleSheet.create({
     color: GREY_NORMAL,
   },
   ratingPeople: { fontSize: 12, color: GREY_LIGHTER },
-  line: {
-    borderBottomWidth: 1,
-    borderBottomColor: "#e3e3e3",
-    marginBottom: 12,
-    width: "90%",
-    alignSelf: "center",
-  },
+
   label: {
     fontSize: 16,
     fontFamily: "Sora_600SemiBold",
