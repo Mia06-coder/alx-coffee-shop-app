@@ -1,4 +1,4 @@
-import { GREY_NORMAL, SURFACE_LIGHT } from "@/constants";
+import { GREY_LIGHT, GREY_NORMAL, SURFACE_LIGHT } from "@/constants";
 import { Dimensions, StyleSheet } from "react-native";
 
 const { height } = Dimensions.get("window");
@@ -21,7 +21,7 @@ export const common_styles = StyleSheet.create({
   headerTitle: { fontFamily: "Sora_600SemiBold", lineHeight: 19.2 },
   divider: {
     borderBottomWidth: 1,
-    borderBottomColor: "#e3e3e3",
+    borderBottomColor: GREY_LIGHT,
     marginBottom: 12,
     width: "90%",
     alignSelf: "center",

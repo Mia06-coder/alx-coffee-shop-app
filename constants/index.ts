@@ -3,6 +3,8 @@ import { router } from "expo-router";
 export const HERO_IMAGE = require("@/assets/images/coffee-hero-image.png");
 export const FILTER_ICON = require("@/assets/svgs/filter.svg");
 export const PROMO_IMAGE = require("@/assets/images/promo-image.png");
+export const MAP_IMAGE = require("@/assets/images/map-image.png");
+export const COURIER_IMAGE = require("@/assets/images/courier-image.png");
 
 // SVGs
 export const COFFEE_SEED_ICON = require("@/assets/svgs/coffee-seed.svg");
@@ -26,7 +28,7 @@ export const PRIMARY_LIGHT = "#F9F2ED";
 
 // Greys
 export const GREY_NORMAL = "#242424";
-export const GREY_LIGHT = "#797979";
+export const GREY_LIGHT = "#E3E3E3";
 export const GREY_LIGHTER = "#A2A2A2";
 export const GREY_DARK = "#111111";
 

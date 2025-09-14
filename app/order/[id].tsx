@@ -183,7 +183,10 @@ export default function OrderScreen() {
               </View>
               <Ionicons name="chevron-down" size={20} />
             </View>
-            <TouchableOpacity style={styles.orderBtn}>
+            <TouchableOpacity
+              style={styles.orderBtn}
+              onPress={() => router.push("/delivery")}
+            >
               <Text style={styles.orderText}>Order</Text>
             </TouchableOpacity>
           </View>

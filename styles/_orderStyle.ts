@@ -1,4 +1,5 @@
 import {
+  GREY_LIGHT,
   GREY_LIGHTER,
   GREY_NORMAL,
   PRIMARY,
@@ -77,7 +78,7 @@ export const styles = StyleSheet.create({
     color: GREY_NORMAL,
     backgroundColor: SURFACE_WHITE,
     borderWidth: 1,
-    borderColor: "#e3e3e3",
+    borderColor: GREY_LIGHT,
     borderRadius: 16,
     padding: 16,
     flexDirection: "row",
