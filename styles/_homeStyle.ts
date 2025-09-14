@@ -10,7 +10,7 @@ import {
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-  topSection: { backgroundColor: CONTAINER, padding: 24, paddingBottom: 80 },
+  topSection: { backgroundImage: CONTAINER, padding: 24, paddingBottom: 80 },
   label: {
     color: GREY_LIGHTER,
     fontSize: 12,
@@ -51,14 +51,14 @@ export const styles = StyleSheet.create({
   },
   promoCard: {
     position: "absolute",
-    top: 150,
+    top: 160,
     left: 0,
     right: 0,
     marginRight: 24,
-    padding: 16,
+    padding: 24,
     borderRadius: 12,
     width: "100%",
-    height: 160,
+    height: 180,
     zIndex: 10,
   },
   promoImage: {
@@ -68,8 +68,8 @@ export const styles = StyleSheet.create({
   },
   promoTag: {
     position: "absolute",
-    top: 24,
-    left: 24,
+    top: 32,
+    left: 32,
     backgroundColor: "#bbb",
     paddingHorizontal: 8,
     paddingVertical: 4,
@@ -82,8 +82,8 @@ export const styles = StyleSheet.create({
   },
   promoDescription: {
     position: "absolute",
-    top: 60,
-    left: 24,
+    top: 72,
+    left: 40,
     backgroundColor: "rgba(0,0,0,0.5)",
     paddingHorizontal: 8,
     paddingVertical: 4,
@@ -93,7 +93,7 @@ export const styles = StyleSheet.create({
     fontFamily: "Sora_600SemiBold",
     width: "60%",
   },
-  bottomSection: { flex: 1, backgroundColor: SURFACE_WHITE, paddingTop: 80 },
+  bottomSection: { flex: 1, backgroundColor: SURFACE_WHITE, paddingTop: 90 },
   tabs: {
     flexDirection: "row",
     gap: 8,
@@ -137,6 +137,8 @@ export const styles = StyleSheet.create({
     top: 8,
     right: 8,
     backgroundColor: "rgba(0,0,0,0.6)",
+    flexDirection: "row",
+    gap: 8,
     padding: 8,
     borderTopRightRadius: 12,
     borderBottomLeftRadius: 24,
@@ -156,6 +158,7 @@ export const styles = StyleSheet.create({
     color: GREY_LIGHTER,
     lineHeight: 14.4,
     fontSize: 12,
+    marginTop: 8,
   },
   cardFooter: {
     flexDirection: "row",
@@ -167,5 +170,6 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 27,
     color: GREY_DARK,
+    marginTop: 8,
   },
 });

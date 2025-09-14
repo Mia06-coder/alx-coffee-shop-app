@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
   underline: {
     marginTop: 4,
     height: 5,
-    width: 12,
-    borderRadius: 8,
+    width: 10,
+    borderRadius: 18,
   },
 });
