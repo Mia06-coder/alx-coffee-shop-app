@@ -44,6 +44,7 @@ A React Native coffee shop application with onboarding, browsing, ordering, and 
 
 - Project idea & structure inspired by [ALX](https://www.alxafrica.com/) exercises
 - Icons and badges from [Shields.io](https://shields.io/)
+- [Design](https://www.figma.com/design/RhP1APTkYyHY3DTClVv5gU/Coffee-Shop-Mobile-App-Design--Community-?node-id=421-1289&t=eNw0R81DhkdIwzJE-0) Inspiration by [NAM Design](https://share.google/uQ5bKvglgKNaa9O99)
 
 ---
 
